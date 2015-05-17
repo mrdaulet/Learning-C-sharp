@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Windows Desktop
+# Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise7_1", "Exercise7_1\Exercise7_1.csproj", "{7F9D1C57-C0C0-4A0D-BE13-8389ADF77AAC}"
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise12_3", "Exercise12_3\Exercise12_3.csproj", "{5CD10C9F-A471-47A8-BB7E-853DAEDDDF8E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise12_4", "Exercise12_4\Exercise12_4.csproj", "{BEB63356-8D74-4100-A11C-C14ED42F1B91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise13", "Exercise13\Exercise13.csproj", "{8CCE8FA4-9A28-47C6-AADC-60CC71A4335B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{BEB63356-8D74-4100-A11C-C14ED42F1B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEB63356-8D74-4100-A11C-C14ED42F1B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEB63356-8D74-4100-A11C-C14ED42F1B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCE8FA4-9A28-47C6-AADC-60CC71A4335B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCE8FA4-9A28-47C6-AADC-60CC71A4335B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCE8FA4-9A28-47C6-AADC-60CC71A4335B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCE8FA4-9A28-47C6-AADC-60CC71A4335B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
