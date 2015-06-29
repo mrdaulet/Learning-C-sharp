@@ -10,14 +10,18 @@ namespace Exercise11_1
     {
         private void Run()
         {
-            ElectronicPhone ep = new ElectronicPhone();
-            ep.Ring();
+            // Variable names that are just initials are almost always a bad idea.
+            // In this particular case it's not so important, but in a larger method it's easy to lose track of what the variable was (especially if you didn't write the code.)
+            // Also you can use var here instead of repeating ElectronicPhone
+            var phone = new ElectronicPhone();
+            phone.Ring();
         }
 
         static void Main(String[] args)
         {
-            Program program = new Program();
-            program.Run();
+            //Note that since you only use the variable once, you don't actually need to store the program object in a variable.
+            // - you could just invoke the method on it directly (Same is true above.)
+            (new Program()).Run();
         }
     }
 
