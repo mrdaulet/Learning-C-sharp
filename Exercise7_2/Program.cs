@@ -16,7 +16,8 @@ namespace Exercise7_2
             Console.WriteLine(Math.Divide(3, 4));
         }
     }
-
+    
+  //Perfect. Nothing to add :)
     static class Math
     {
         public static int Add(int a, int b)
